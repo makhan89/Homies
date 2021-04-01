@@ -1,0 +1,77 @@
+div{}
+body{margin: 0;
+     text-align: center;
+     font-family: 'Merienda', cursive;} /* this code will center everything that has no modifications
+     verdana is the font. sans-serif is a default font.
+     some operating systems dont recognize every font.
+     search for the most common font thats web safe in other words a font that is recognized by almost all
+     operating systems. for example Arial. cssfontstack.com is a good site.
+     fonts.google.com is another good site*/
+
+
+h1 {margin: 0 auto 0 auto;
+    font-family: 'Merienda', cursive;}
+     /* margin:0 auto 0 auto; is used for top left bottom right modifications */
+h2 {font-family: 'Oswald', sans-serif;}
+
+h3 {font-family: 'Oswald', sans-serif;;
+
+}
+p{margin:0 auto 0 auto;
+  font-family: 'Oswald', sans-serif;}
+.top-container{
+                position: relative;
+                padding-top: 100px;}
+
+                .middle-container{
+                                }
+
+                .bottom-container{
+                }
+                /* these containers are basically boxes made with color and width and height assigned to it */
+                .pro{text-decoration: underline;}
+
+
+/*display: inline-block; <<< its used to bring all images and text into one line . Has to be added to each code
+
+
+abosulte position is use to position images as also.
+below are examples:
+
+.red{ height:100px ;
+      width:100px ;
+      background-color:red ;
+      position: absolute;
+      left:200px ;
+      top:200px;}
+
+.blue{ height:100px ;
+      width:100px ;
+      background-color:blue ;
+      position: absolute;
+      left:100px;
+      top:100px;}
+
+.yellow{height:100px ;
+      width:100px ;
+      background-color:yellow;
+      position: absolute;
+      left:0px ;
+      top: 0px ;}
+
+
+an easy way to make all margines for images 0 is to target body{margin: px0;}
+
+      */
+
+
+
+.top-cloud {position: absolute;
+                right: 300px;
+                top: 50px;
+                }
+
+.cloud {position: absolute;
+        left: 300px;
+        bottom : 300px;
+         }
